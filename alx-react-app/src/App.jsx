@@ -27,7 +27,7 @@ function App() {
       <WelcomeMessage />
       <Header />
       <MainContent />
-      <UserProfile name ="Kingsley" age = "25" bio = "currently an Alx learner" />
+      <UserProfile name ="Alice" age = "25" bio = "Loves hiking and photography" />
       <Footer />
 
 
