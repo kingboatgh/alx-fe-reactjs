@@ -6,6 +6,8 @@ import WelcomeMessage from './components/WelcomeMessage'
 import Header from './components/Header'  
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
+import UserProfile from './components/UserProfile'
+
 
 
 
@@ -25,6 +27,7 @@ function App() {
       <WelcomeMessage />
       <Header />
       <MainContent />
+      <UserProfile name ="Kingsley" age = "25" bio = "currently an Alx learner" />
       <Footer />
 
 
