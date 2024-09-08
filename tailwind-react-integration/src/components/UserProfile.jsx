@@ -1,4 +1,8 @@
 import React from 'react';
+export default UserProfile;
+
+
+
 
 function UserProfile() {
   return (

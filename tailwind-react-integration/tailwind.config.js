@@ -1,15 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   purge: [
-    "./src/**/*.{js,jsx,ts,tsx}",  // Include all JSX, TSX files in the src folder
-    "./public/index.html",         // Include the index.html in the public folder
+    './src/**/*.{js,jsx,ts,tsx}',
+    './public/index.html',
   ],
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},  // Extend Tailwind's default theme here (optional)
+    extend: {},
   },
-  darkMode: 'media', // or 'class' for manual dark mode control
   variants: {
-    extend: {},  // Customize variants for utility classes (optional)
+    extend: {},
   },
-  plugins: [],  // Add any plugins here (optional)
+  plugins: [],
 };
